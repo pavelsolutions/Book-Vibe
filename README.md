@@ -547,7 +547,7 @@ Possible future improvements for Book Vibe:
 
 ## 👨‍💻 Author
 
-### Arham
+### Pavel Ahammed
 
 Frontend Developer & Data Science Student
 
@@ -573,29 +573,3 @@ If you like this project, consider giving the repository a ⭐ on GitHub.
 
 ## 📄 License
 
-This project was created for learning and portfolio purposes.
-
-````
-
-### GitHub header I recommend
-
-For your actual repository, I would use this shorter, cleaner header:
-
-```md
-# 📚 Book Vibe
-
-### A modern book discovery and reading management application built with Next.js, TypeScript & Tailwind CSS.
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss" />
-  <img src="https://img.shields.io/badge/Recharts-FF6384?style=for-the-badge" />
-</p>
-
-<p align="center">
-  <b>Explore books • Track reading • Manage wishlist • View statistics</b>
-</p>
-````
-
-This is better for your **portfolio/GitHub** because it immediately tells someone what **Book Vibe** is and which technologies you used.
