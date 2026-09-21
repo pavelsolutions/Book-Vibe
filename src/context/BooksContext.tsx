@@ -1,6 +1,6 @@
 'use client'
 
-import { IBook } from '@/app/types/bookType';
+import { IBook } from '@/types/bookType';
 import React, { createContext, ReactNode, useState } from 'react';
 
 interface IBooksContext {

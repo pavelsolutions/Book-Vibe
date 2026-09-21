@@ -16,7 +16,7 @@ import {
   type LabelProps,
 } from "recharts";
 
-import type { IBook } from "../types/bookType";
+import { IBook } from '@/types/bookType';
 
 const colors = [
   "#0088FE",

@@ -1,6 +1,6 @@
 import { FaStar } from "react-icons/fa";
 import BookCard from "../shared/BookCard";
-import { IBook } from "@/app/types/bookType";
+import { IBook } from '@/types/bookType';
 
 // const getBooks = async () => {
 //   const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/booksData.json`);
