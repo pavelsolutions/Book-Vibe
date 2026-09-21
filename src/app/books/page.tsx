@@ -1,6 +1,6 @@
 import React from 'react';
-import BookCard from '../components/shared/BookCard';
-import { IBook } from '../types/bookType';
+import BookCard from '@/components/shared/BookCard';
+import { IBook } from '@/types/bookType';
 
 // const getBooks = async () => {
 //   const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/booksData.json`);
@@ -23,10 +23,10 @@ const getBooks = async () => {
   }
 }
 
-const BooksPage = async() => {
-    const books = await getBooks();
-    return (
-        <section className="bg-white py-10">
+const BooksPage = async () => {
+  const books = await getBooks();
+  return (
+    <section className="bg-white py-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="mb-8">
@@ -46,7 +46,7 @@ const BooksPage = async() => {
         </div>
       </div>
     </section>
-    );
+  );
 };
 
 export default BooksPage;

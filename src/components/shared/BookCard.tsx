@@ -1,11 +1,11 @@
-import { IBook } from '@/app/types/bookType';
+import { IBook } from '@/types/bookType';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 
 interface IBookCardProps {
-    book: IBook
+    book: IBook,
 }
 
 const BookCard = ({ book }: IBookCardProps) => {

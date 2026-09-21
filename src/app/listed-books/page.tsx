@@ -1,13 +1,13 @@
 "use client";
 
 import { BooksContext } from "@/context/BooksContext";
-import type { IBook } from "@/app/types/bookType";
+import { IBook } from '@/types/bookType';
 
 import { useContext, useState } from "react";
 
 import { FaBook, FaChevronDown } from "react-icons/fa";
 
-import BookListItem from "../components/shared/BookListItem";
+import BookListItem from "@/components/shared/BookListItem";
 
 const ListedBooks = () => {
   const { readBooks, wishlist } = useContext(BooksContext);

@@ -1,4 +1,4 @@
-import type { IBook } from "@/app/types/bookType";
+import { IBook } from '@/types/bookType';
 import Image from "next/image";
 import Link from "next/link";
 import {

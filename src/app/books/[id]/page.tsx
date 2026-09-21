@@ -1,9 +1,10 @@
-import { IBook } from "@/app/types/bookType";
+import { IBook } from '@/types/bookType';
 import { FaBookOpen, FaCalendarAlt, FaBuilding, FaStar } from "react-icons/fa";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import ReadButton from "@/app/components/bookDetails/ReadButton";
-import WishlistButton from "@/app/components/bookDetails/WishlistButton";
+import ReadButton from '@/components/bookDetails/ReadButton';
+import WishlistButton from '@/components/bookDetails/WishlistButton';
+
 
 interface IBookDetailsPageProps {
     params: Promise<{
